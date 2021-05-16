@@ -10,7 +10,7 @@ export default class Card extends Component {
                         <div className="card-body">
                             <h5 className="card-title">{this.props.title}</h5>
         
-                            <a className="btn btn-primary">Details</a>
+                            <Link to={`/blog/${this.props.title}`} className="btn btn-primary">Details</Link>
                         
                             
                            
