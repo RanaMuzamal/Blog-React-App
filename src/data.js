@@ -9,25 +9,25 @@ const data={
             id:1,
             img:img1,
             title:"Titile 1",
-            desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+            desc:'This is the text from title one just to test react router dom, keep coding'
         },
         {
             id:2,
             img:img2,
             title:"Titile 2",
-            desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+            desc:'This is the text from title two just to test react router dom, hello from nigeria'
         },
         {
             id:3,
             img:img3,
             title:"Titile 3",
-            desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+            desc:'This is the text from title three just to test react router dom, now you know the difference'
         },
         {
             id:4,
             img:img4,
             title:"Titile 4",
-            desc:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+            desc:'This is the text from title four just to test react router dom, make sure to note the changes that i made'
         }
     ]
 }

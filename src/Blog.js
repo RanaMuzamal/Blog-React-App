@@ -8,7 +8,7 @@ const Blog = () => {
             <div className="row justify-content-center">
                 {data.cardData.map((item,index)=>{
                     return(
-                        <Card key={index} img={item.img} title={item.title} Link="/details" />
+                        <Card key={index} img={item.img} title={item.title} />
                     )
                     })}
                 
