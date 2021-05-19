@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Route,Link, Routes} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default class Card extends Component {
     render() {
@@ -9,11 +9,7 @@ export default class Card extends Component {
                         <img src={this.props.img} className="card-img-top"  />
                         <div className="card-body">
                             <h5 className="card-title">{this.props.title}</h5>
-        
                             <Link to={`/blog/${this.props.title}`} className="btn btn-primary">Details</Link>
-                        
-                            
-                           
                         </div>
                     </div>
                 </div>

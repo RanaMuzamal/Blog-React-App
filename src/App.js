@@ -10,11 +10,6 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Link to="/blog">Blog</Link>
-            <h3>your version of react router seems outdated</h3>
-            <p>run <b>"npm remove react-router-dom"</b></p>
-            <p>then run <b>"npm install react-router-dom"</b> to install it again</p>
-            <p>goodluck my brother</p>
-            <p>remove this message after reading it</p>
           </Route>
           <Route exact path="/blog" component={Blog} />
           <Route path="/blog/:name" component={Details} />
